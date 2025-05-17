@@ -1,8 +1,8 @@
-export default defineEventHandler(async () => {
+export default defineEventHandler(async (event) => {
   const baseUrl =
     "https://vdcdn384.api.sanity.io/v2025-05-17/data/query/production";
 
-  const query = `*[_type == "product" && name match "Krema za*"] {
+  const query = `*[_type == "product" && name match "${event.context.params?.query}"] {
     name,
     current_price,
     previous_price,

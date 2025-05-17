@@ -20,5 +20,5 @@
 </template>
 
 <script setup lang="ts">
-const { data, pending, error } = await useFetch('/api/query')
+const { data, pending, error } = await useFetch('/api/query/Krema*')
 </script>
