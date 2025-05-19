@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col z-50">
-    <header class="bg-white shadow-md fixed w-full z-50">
+    <header class="bg-white shadow-md top-0 w-full z-50">
       <nav class="max-w-screen-xl mx-auto flex items-center justify-between p-4 gap-2">
         <NuxtLink to="/" class="text-xl font-semibold whitespace-nowrap">
           <Icon name="simple-line-icons:bag" size="20" />

@@ -1,13 +1,5 @@
-<script setup lang="ts">
-import { useProductStore } from '~/stores/products'
-import { storeToRefs } from 'pinia'
-
-const productStore = useProductStore()
-const { results, loading, error } = storeToRefs(productStore)
-</script>
-
 <template>
-  <section class="p-24 px-4 max-w-7xl mx-auto">
+  <section class="p-12 px-4 max-w-7xl mx-auto">
     <h2 class="text-2xl font-semibold mb-6">📦 Proizvodi</h2>
 
     <div v-if="loading" class="text-gray-500">Loading...</div>
@@ -42,3 +34,11 @@ const { results, loading, error } = storeToRefs(productStore)
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { useProductStore } from '~/stores/products'
+import { storeToRefs } from 'pinia'
+
+const productStore = useProductStore()
+const { results, loading, error } = storeToRefs(productStore)
+</script>

@@ -1,9 +1,12 @@
 <template>
-  <div class="bg-green-500">
-    <NavBar />
-    <slot />
-    <Footer />
+  <div class="h-screen flex flex-col bg-green-500">
+    <NavBar class="flex-shrink-0" />
+
+    <main class="flex-grow overflow-y-auto">
+      <slot />
+      <!-- <div class="bg-red-500 w-full h-full"></div> -->
+    </main>
+
+    <Footer class="flex-shrink-0" />
   </div>
 </template>
-<script setup lang="ts">
-</script>
