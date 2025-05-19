@@ -1,6 +1,6 @@
 <template>
   <div class="bg-green-500">
-    <Navbar />
+    <NavBar />
     <slot />
     <Footer />
   </div>

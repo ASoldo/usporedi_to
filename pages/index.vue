@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <Main /> -->
-    <Query />
+    <!-- <Query /> -->
+    <Products />
   </div>
 </template>
 
