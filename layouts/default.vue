@@ -1,5 +1,5 @@
 <template>
-  <div class="size-dvh flex flex-col bg-green-500">
+  <div class="h-dvh flex flex-col bg-green-500">
     <NavBar class="flex-shrink-0" />
 
     <main class="flex-grow overflow-y-auto">
