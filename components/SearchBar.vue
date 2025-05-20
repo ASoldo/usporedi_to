@@ -4,7 +4,7 @@
       <input v-model="search" spellcheck="false" type="text" placeholder="Krema"
         class="w-full pr-10 pl-4 py-2 border border-black rounded-full focus:ring-green-500 focus:border-green-500" />
       <button type="submit"
-        class="absolute top-1/2 right-1 transform -translate-y-1/2 px-3 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition flex items-center justify-center">
+        class="absolute top-1/2 right-1 transform -translate-y-1/2 w-8 h-8 bg-green-600 text-white rounded-full hover:bg-green-700 transition flex items-center justify-center">
         <Icon name="simple-line-icons:magic-wand" size="20" />
       </button>
     </div>
