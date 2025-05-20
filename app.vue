@@ -2,6 +2,7 @@
   <div>
     <NuxtRouteAnnouncer />
     <NuxtLayout>
+      <Pwa />
       <NuxtPage />
     </NuxtLayout>
   </div>

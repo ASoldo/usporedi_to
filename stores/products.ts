@@ -43,4 +43,6 @@ export const useProductStore = defineStore('products', () => {
     error,
     compareProducts,
   }
+}, {
+  persist: true
 })
