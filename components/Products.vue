@@ -1,6 +1,6 @@
 <template>
   <section class="p-12 px-4 max-w-7xl mx-auto">
-    <h2 class="text-2xl font-semibold mb-6">
+    <h2 class="text-2xl font-semibold mb-6 text-white">
       <Icon name="simple-line-icons:book-open" size="20" /> Proizvodi
     </h2>
 

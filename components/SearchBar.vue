@@ -2,15 +2,7 @@
   <form @submit.prevent="handleSubmit" class="w-full max-w-3xl px-4">
     <div class="bg-white border border-black rounded-xl px-4 py-3">
 
-      <!-- Row 1: Search input with button inside -->
-      <div class="relative mb-3">
-        <input v-model="searchQuery" placeholder="Krema"
-          class="w-full pr-10 pl-4 py-2 rounded-full border border-gray-300 focus:ring-green-500 focus:border-green-500" />
-        <button type="submit"
-          class="absolute top-1/2 right-1 transform -translate-y-1/2 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center hover:bg-green-700">
-          <Icon name="simple-line-icons:magic-wand" size="16" />
-        </button>
-      </div>
+
 
       <!-- Row 2: Unified full-width pill with ellipsis inside dropdowns only -->
       <div class="w-full flex rounded-full overflow-hidden border border-gray-300 text-sm whitespace-nowrap">
@@ -47,6 +39,16 @@
           <input v-model="maxPrice" type="number"
             class="flex-1 bg-transparent py-1 pr-2 focus:outline-none truncate min-w-0" placeholder="Max" />
         </div>
+      </div>
+
+      <!-- Row 1: Search input with button inside -->
+      <div class="relative mt-3">
+        <input v-model="searchQuery" placeholder="Krema"
+          class="w-full pr-10 pl-4 py-2 rounded-full border border-gray-300 focus:ring-green-500 focus:border-green-500" />
+        <button type="submit"
+          class="absolute top-1/2 right-1 transform -translate-y-1/2 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center hover:bg-green-700">
+          <Icon name="simple-line-icons:magic-wand" size="16" />
+        </button>
       </div>
 
       <!-- Row 3: Filter Chips -->
