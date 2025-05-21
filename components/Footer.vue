@@ -1,6 +1,5 @@
 <template>
-  <!-- Footer -->
-  <footer class="bg-green-600 text-white w-full h-max bottom-0 flex flex-col justify-center items-center">
-    &copy; 2025 Usporedi To. All rights reserved.
+  <footer class="p-2 bg-green-600 text-black w-full h-max bottom-0 flex flex-col justify-center items-center">
+    <SearchBar />
   </footer>
 </template>

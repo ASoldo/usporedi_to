@@ -1,6 +1,8 @@
 <template>
   <section class="p-12 px-4 max-w-7xl mx-auto">
-    <h2 class="text-2xl font-semibold mb-6">📦 Proizvodi</h2>
+    <h2 class="text-2xl font-semibold mb-6">
+      <Icon name="simple-line-icons:book-open" size="20" /> Proizvodi
+    </h2>
 
     <div v-if="loading" class="text-gray-500">Loading...</div>
     <div v-else-if="error" class="text-red-600">❌ {{ error }}</div>
