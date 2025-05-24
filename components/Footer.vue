@@ -1,10 +1,3 @@
-<script setup lang="ts">
-import SearchBar from '~/components/SearchBar.vue'
-import { useUiStore } from '~/stores/ui'
-
-const ui = useUiStore()
-</script>
-
 <template>
   <div class="relative">
     <!-- Floating Bubble Button -->
@@ -22,3 +15,10 @@ const ui = useUiStore()
     </footer>
   </div>
 </template>
+
+<script setup lang="ts">
+import SearchBar from '~/components/SearchBar.vue'
+import { useUiStore } from '~/stores/ui'
+
+const ui = useUiStore()
+</script>
